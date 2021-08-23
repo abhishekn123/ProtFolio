@@ -9,6 +9,7 @@ import OpenSourcePage from "./page/OpenSource";
 import ArticlePage from "./page/Article";
 import history from './Router/history';
 import { Route, Router } from "react-router";
+import Footer from './Footer';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
             <Route exact path="/OpenSource" component={OpenSourcePage} />
             <Route exact path="/Articles" component={ArticlePage} />
           </Switch>
+          <Footer/>
         </Router>
       </Container>
     </ChakraProvider>
