@@ -12,7 +12,7 @@ export default function EducationCard() {
                     <Box>  <Image w="full" src={college} alt="IvyMobility" height="20"  /></Box>
                     <Box><Heading as="h6" size="md" >Sapthagiri College of Engineering</Heading>
                         <Heading as="h5" size="sm">
-                            Bachelor's Degree in Electronica and Comminication
+                            Bachelor's Degree in Electronica and Communication
                         </Heading>
                     </Box>
                 </HStack>

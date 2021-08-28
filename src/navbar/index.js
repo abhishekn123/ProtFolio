@@ -55,7 +55,7 @@ function SmallNav({ toggleColorMode=()=>{}}) {
     </Flex >
         {selected ? <VStack>
             <Box w="full" >
-                <Text style={{ cursor: "pointer" }} className="selected-nav"  onClick={() => history.push("/About")} >About</Text>
+                <Text style={{ cursor: "pointer" }} className="selected-nav"  onClick={() => history.push("/")} >About</Text>
             </Box>
             <Box w="full" >
                 <Text style={{ cursor: "pointer" }}  onClick={() => history.push("/Articles")} >Articles</Text>
