@@ -12,10 +12,12 @@ const firebaseConfig = {
   measurementId: "G-0T5WX5FRVS",
 };
 export async function ProfileViewed() {
-  const app = initializeApp(firebaseConfig);
-  const database = getDatabase(app);
-  let obj = {"view":1};
-  set(ref(database, "Views/"+generateString(5)), obj);
+  if (process.env.NODE_ENV !== "development") {
+    const app = initializeApp(firebaseConfig);
+    const database = getDatabase(app);
+    let obj = { view: 1 };
+    set(ref(database, "Views/" + generateString(5)), obj);
+  }
 }
 const characters =
   "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
