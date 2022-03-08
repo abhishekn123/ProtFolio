@@ -10,7 +10,7 @@ import {
 } from "@chakra-ui/layout";
 import React from "react";
 import ivy from "../assets/ivy.png";
-import prokarma from "../assets/pk.png";
+import concentrix from "../assets/concentrix.jfif";
 
 export default function CarrerCard() {
   const career = [
@@ -22,11 +22,11 @@ export default function CarrerCard() {
       skills: ["Reactjs", "Angular", "DotnetCore", "NoSql"],
     },
     {
-      logo: prokarma,
-      name: "Prokarma softech private limited",
+      logo: concentrix,
+      name: "Concentrix Catalyst",
       role: "Software Engineer",
       date: "2021-Present",
-      skills: ["Angular", "Dotnet", "Sqlserver"],
+      skills: ["Angular", "DotnetCore", "Sqlserver"],
     },
   ];
   return (
