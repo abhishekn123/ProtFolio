@@ -11,6 +11,7 @@ import {
 import React from "react";
 import ivy from "../assets/ivy.png";
 import concentrix from "../assets/concentrix.jfif";
+import deloitte from "../assets/1662120927694.jpeg"
 
 export default function CarrerCard() {
   const career = [
@@ -25,8 +26,15 @@ export default function CarrerCard() {
       logo: concentrix,
       name: "Concentrix Catalyst",
       role: "Software Engineer",
-      date: "2021-Present",
-      skills: ["Angular", "DotnetCore", "Sqlserver"],
+      date: "2021-2023",
+      skills: ["Angular", "DotnetCore", "Sqlserver","Azure"],
+    },
+    {
+      logo: deloitte,
+      name: "Deloitte",
+      role: "Senior Analyst",
+      date: "2023-Present",
+      skills: ["Reactjs", "DotnetCore", "Sqlserver","Docker","Azure"],
     },
   ];
   return (
