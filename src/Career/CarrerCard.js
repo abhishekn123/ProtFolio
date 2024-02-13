@@ -39,7 +39,7 @@ export default function CarrerCard() {
   ];
   return (
     <>
-      {career.map((exp) => (
+      {career.reverse().map((exp) => (
         <Box w="full" marginTop="1" >
           <SimpleGrid columns={{ sm: 1, md: 1, lg: 2 }}>
             <Box>

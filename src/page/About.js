@@ -4,6 +4,7 @@ import Career from '../Career'
 import Education from '../Education'
 import Profile from '../profile/Profile'
 import Skills from '../skills/skills'
+import Certification from '../Certification'
 
 export default function AboutPage() {
     return (
@@ -14,6 +15,7 @@ export default function AboutPage() {
             <Box> <Profile /></Box>
             <Box >   <Skills /></Box>
             <Box  > <Career /></Box>
+            <Box><Certification/></Box>
             <Box  > <Education /></Box>
         </VStack>
     )

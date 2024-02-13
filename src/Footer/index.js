@@ -18,7 +18,7 @@ export default function Footer() {
                 <a href="tel:8618872414" > <IconButton fontSize="lg" aria-label="Search database" icon={<FaPhoneSquareAlt fontSize="lg" />} /></a>
             </Box>
             <Box w="40px" h="40px">
-                <a href = "mailto: abhiabhishekn164@gmail.com"> <IconButton fontSize="lg" aria-label="Search database" icon={<CgMail fontSize="lg" />} /></a>
+                <a href = "mailto: abhishekn@outlook.in"> <IconButton fontSize="lg" aria-label="Search database" icon={<CgMail fontSize="lg" />} /></a>
             </Box>
         </HStack>
     )
